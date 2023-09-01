@@ -6,3 +6,6 @@ Lancia lo gnomino verso lo zucchezo, cercando di prenderne il più possibile
 
 ## [Flappy Modre](https://games.ivanbeltrame.com/flappymodre/)
 Fai volare modre il più lontano possibile
+
+## [Mangia zucchezo](https://games.ivanbeltrame.com/mangiazucchezo/)
+Aiuta lo gnomino a mangiare tutto lo zucchezo
