@@ -4,6 +4,7 @@ const keyboardDiv = document.querySelector(".keyboard");
 const hangmanImage = document.querySelector(".hangman-box img");
 const gameModal = document.querySelector(".game-modal");
 const playAgainBtn = gameModal.querySelector("button");
+const originalWordList = JSON.parse(JSON.stringify(wordList));
 
 // Initializing game variables
 let currentWord, correctLetters, wrongGuessCount;
@@ -22,8 +23,13 @@ const resetGame = () => {
 
 const getRandomWord = () => {
     // Selecting a random word and hint from the wordList
-    const { word, hint } = wordList[Math.floor(Math.random() * wordList.length)];
+    if (wordList.length == 0 ) {
+        wordList = JSON.parse(JSON.stringify(originalWordList));
+    }
+    const index = Math.floor(Math.random() * wordList.length);
+    const { word, hint } = wordList[index];
     currentWord = word; // Making currentWord as random word
+    wordList.splice(index, 1);
     document.querySelector(".hint-text b").innerText = hint;
     resetGame();
 }
@@ -32,7 +38,7 @@ const gameOver = (isVictory) => {
     // After game complete.. showing modal with relevant details
     const modalText = isVictory ? `Hai trovato la parola:` : 'La parola corretta:';
     gameModal.querySelector("img").src = `images/${isVictory ? 'victory' : 'lost'}.gif`;
-    gameModal.querySelector("h4").innerText = isVictory ? 'Congrats!' : 'Game Over!';
+    gameModal.querySelector("h4").innerText = isVictory ? 'Congratulazioni!' : 'Game Over!';
     gameModal.querySelector("p").innerHTML = `${modalText} <b>${currentWord}</b>`;
     gameModal.classList.add("show");
 }
