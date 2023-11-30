@@ -52,10 +52,6 @@ let wordList = [
         hint: "Una pietra preziosa conosciuta per la sua brillantezza e durezza."
     },
     {
-        word: "avventura",
-        hint: "Un'esperienza eccitante o audace."
-    },
-    {
         word: "scienza",
         hint: "Lo studio sistematico della struttura e del comportamento del mondo fisico e naturale."
     },
@@ -252,20 +248,12 @@ let wordList = [
         hint: "Un cambiamento improvviso, completo o marcato in qualcosa."
     },
     {
-        word: "tecnologia",
-        hint: "L'applicazione della conoscenza scientifica a scopi pratici."
-    },
-    {
         word: "innovazione",
         hint: "L'introduzione di nuove idee, metodi o invenzioni."
     },
     {
         word: "esplorazione",
         hint: "L'azione di viaggiare in o attraverso un'area sconosciuta al fine di conoscerla."
-    },
-    {
-        word: "comunicazione",
-        hint: "L'atto di trasmettere o scambiare informazioni o notizie."
     },
     {
         word: "resilienza",
@@ -308,10 +296,6 @@ let wordList = [
         hint: "Manifestazione di considerazione e ammirazione nei confronti degli altri."
     },
     {
-        word: "equilibrio",
-        hint: "Uno stato di stabilità o armonia, in cui le forze si compensano reciprocamente."
-    },
-    {
         word: "compassione",
         hint: "Sentimento di profonda empatia e preoccupazione per il dolore degli altri."
     },
@@ -320,11 +304,362 @@ let wordList = [
         hint: "La qualità di essere logici, stabili e coerenti nei pensieri e nelle azioni."
     },
     {
-        word: "innovazione",
-        hint: "Introduzione di nuove idee, metodi o invenzioni."
-    },
-    {
         word: "condivisione",
         hint: "L'atto di dare o partecipare, rendendo qualcosa disponibile per gli altri."
+    },{
+        word: "coesione",
+        hint: "Unione e solidarietà tra individui o elementi."
     },
+    {
+        word: "cooperazione",
+        hint: "Lavoro congiunto per raggiungere un obiettivo comune."
+    },
+    {
+        word: "sviluppo",
+        hint: "Processo di crescita, progresso o miglioramento."
+    },
+    {
+        word: "resistenza",
+        hint: "Capacità di opporsi o sopportare pressioni esterne."
+    },
+    {
+        word: "efficienza",
+        hint: "Capacità di ottenere risultati con il minimo spreco di risorse."
+    },
+    {
+        word: "concentrazione",
+        hint: "Focalizzazione mentale su un'attività o un obiettivo specifico."
+    },
+    {
+        word: "comunicazione",
+        hint: "Scambio di informazioni tra individui o gruppi."
+    },
+    {
+        word: "adattabilità",
+        hint: "Capacità di adeguarsi e rispondere positivamente ai cambiamenti."
+    },
+    {
+        word: "vittoria",
+        hint: "Il trionfo o il successo in una competizione o una sfida."
+    },
+    {
+        word: "melodia",
+        hint: "Una successione piacevole di suoni musicali."
+    },
+    {
+        word: "fotocamera",
+        hint: "Un dispositivo per catturare immagini fotografiche."
+    },
+    {
+        word: "avventuriero",
+        hint: "Una persona che si imbarca in avventure audaci e rischiose."
+    },
+    {
+        word: "invenzione",
+        hint: "La creazione di qualcosa di nuovo e originale."
+    },
+    {
+        word: "energia",
+        hint: "La capacità di compiere lavoro o di produrre cambiamenti."
+    },
+    {
+        word: "aviazione",
+        hint: "Il settore dell'aviazione che coinvolge voli e aerei."
+    },
+    {
+        word: "esploratore",
+        hint: "Una persona che esplora regioni sconosciute o difficili."
+    },
+    {
+        word: "risonanza",
+        hint: "La condizione in cui un oggetto vibra in risposta a una forza esterna."
+    },
+    {
+        word: "fenomeno",
+        hint: "Un evento osservabile o una circostanza straordinaria."
+    },
+    {
+        word: "crescente",
+        hint: "In aumento o in fase di sviluppo."
+    },
+    {
+        word: "sorgente",
+        hint: "Una fonte da cui sgorga acqua o altra sostanza."
+    },
+    {
+        word: "fulmine",
+        hint: "Una scarica elettrica durante un temporale."
+    },
+    {
+        word: "sorriso",
+        hint: "L'espressione di gioia o felicità che coinvolge la bocca."
+    },
+    {
+        word: "dominio",
+        hint: "Un'area di conoscenza o controllo su qualcosa."
+    },
+    {
+        word: "serenita",
+        hint: "Stato di calma e tranquillita interiore."
+    },
+    {
+        word: "elefante",
+        hint: "Un grande mammifero con proboscide e lunghe zanne."
+    },
+    {
+        word: "stravaganza",
+        hint: "Carattere di qualcosa di eccentrico o fuori dall'ordinario."
+    },
+    {
+        word: "ignoto",
+        hint: "Non conosciuto o non scoperto."
+    },
+    {
+        word: "silenzio",
+        hint: "Assenza di suoni o rumori."
+    },
+    {
+        word: "avventura",
+        hint: "Un'esperienza emozionante o rischiosa."
+    },
+    {
+        word: "oblio",
+        hint: "Stato di dimenticanza o trascuratezza."
+    },
+    {
+        word: "riflesso",
+        hint: "Immagine o luce rimbalzata da una superficie."
+    },
+    {
+        word: "essenza",
+        hint: "La natura fondamentale o caratteristica di qualcosa."
+    },
+    {
+        word: "rapsodia",
+        hint: "Composizione musicale libera ed espressiva."
+    },
+    {
+        word: "rocambolesco",
+        hint: "Straordinariamente avventuroso o complicato."
+    },
+    {
+        word: "luminoso",
+        hint: "Che emette molta luce o che è chiaro e brillante."
+    },
+    {
+        word: "abissale",
+        hint: "Relativo alle profondità marine o estremamente profondo."
+    },
+    {
+        word: "meticoloso",
+        hint: "Estremamente attento ai dettagli e preciso."
+    },
+    {
+        word: "pittoresco",
+        hint: "Attraente o suggestivo in modo insolito o vivace."
+    },
+    {
+        word: "intricato",
+        hint: "Complesso, con molti dettagli o intrecci."
+    },
+    {
+        word: "fragoroso",
+        hint: "Che produce un suono forte e tumultuoso."
+    },
+    {
+        word: "arcano",
+        hint: "Misterioso e segreto, noto solo a pochi."
+    },
+    {
+        word: "cenitale",
+        hint: "Relativo al punto della sfera celeste direttamente sopra l'osservatore."
+    },
+    {
+        word: "espansione",
+        hint: "Aumento di dimensioni, portata o importanza."
+    },
+    {
+        word: "vibrante",
+        hint: "Che vibra o pulsante con energia."
+    },
+    {
+        word: "etereo",
+        hint: "Di natura leggera, delicata e celestiale."
+    },
+    {
+        word: "insolito",
+        hint: "Fuori dall'ordinario, non comune o consueto."
+    },
+    {
+        word: "intrepido",
+        hint: "Senza paura, coraggioso e audace."
+    },
+    {
+        word: "ludico",
+        hint: "Relativo al gioco o al divertimento."
+    },
+    {
+        word: "penombra",
+        hint: "Zona parzialmente o leggermente oscura."
+    },
+    {
+        word: "cromatica",
+        hint: "Relativo ai colori o alla scala dei colori."
+    },
+    {
+        word: "placidita",
+        hint: "Stato di calma e tranquillità."
+    },
+    {
+        word: "effervescente",
+        hint: "Che produce bolle di gas, solitamente riferito a bevande gassate."
+    },
+    {
+        word: "zaffiro",
+        hint: "Una pietra preziosa di colore blu."
+    },
+    {
+        word: "volubile",
+        hint: "Che cambia facilmente o è instabile nelle decisioni."
+    },
+    {
+        word: "intrigante",
+        hint: "Che suscita curiosità o interesse, spesso con un elemento di mistero."
+    },
+    {
+        word: "quintessenza",
+        hint: "L'essenza più pura e concentrata di qualcosa."
+    },
+    {
+        word: "quadrante",
+        hint: "La parte di un orologio o di uno strumento che mostra il tempo o la misurazione."
+    },
+    {
+        word: "radiante",
+        hint: "Che emette luce o energia in modo brillante."
+    },
+    {
+        word: "accarezzare",
+        hint: "Muovere delicatamente le mani o le dita sulla superficie di qualcosa."
+    },
+    {
+        word: "luminare",
+        hint: "Illuminare o illuminare con luce intensa."
+    },
+    {
+        word: "ecclettico",
+        hint: "Che trae ispirazione da una vasta gamma di stili, idee o fonti."
+    },
+    {
+        word: "effluvio",
+        hint: "Emissione di odori o vapori, spesso in modo delicato o sottile."
+    },
+    {
+        word: "cromosoma",
+        hint: "Struttura nel nucleo delle cellule contenente i geni e portatrice di informazioni ereditarie."
+    },
+    {
+        word: "zenzero",
+        hint: "Una radice piccante usata in cucina e in medicina."
+    },
+    {
+        word: "sillogismo",
+        hint: "Forma di ragionamento in cui si trae una conclusione da due premesse."
+    },
+    {
+        word: "eclettismo",
+        hint: "Adozione o incorporazione di elementi da diverse fonti o stili."
+    },
+    {
+        word: "magnetico",
+        hint: "Relativo alla forza di attrazione tra materiali magnetizzati."
+    },
+    {
+        word: "sublime",
+        hint: "Di grande bellezza o grandiosità, spesso suscitando ammirazione profonda."
+    },
+    {
+        word: "eclittica",
+        hint: "Il piano approssimativo dell'orbita terrestre intorno al sole."
+    },
+    {
+        word: "nostalgico",
+        hint: "Che prova nostalgia o rimpianto per il passato."
+    },
+    {
+        word: "effimero",
+        hint: "Di breve durata, destinato a svanire rapidamente."
+    },
+    {
+        word: "nobile",
+        hint: "Caratterizzato da nobiltà di carattere, qualità o status."
+    },
+    {
+        word: "cangiante",
+        hint: "Che cambia colore o aspetto in base all'angolo di visione o alla luce."
+    },
+    {
+        word: "sciamano",
+        hint: "Un individuo in una società tradizionale che agisce come intermediario tra il mondo spirituale e la comunità."
+    },
+    {
+        word: "deflagrazione",
+        hint: "Un processo di combustione rapida con produzione di gas e calore."
+    },
+    {
+        word: "vortice",
+        hint: "Un movimento circolare di fluido che forma un gorgo o un turbinio."
+    },
+    {
+        word: "incantatore",
+        hint: "Una persona che usa la magia o il fascino per affascinare o influenzare gli altri."
+    },
+    {
+        word: "sovraintendere",
+        hint: "Avere autorità o controllo su qualcosa, supervisionare."
+    },
+    {
+        word: "riviviscenza",
+        hint: "La ripresa di vita, vigore o attività."
+    },
+    {
+        word: "propulsione",
+        hint: "Il processo di spingere o trainare un oggetto in avanti."
+    },
+    {
+        word: "infernale",
+        hint: "Relativo all'inferno o caratterizzato da estrema calura o violenza."
+    },
+    {
+        word: "illuminato",
+        hint: "Dotato di saggezza o conoscenza profonda."
+    },
+    {
+        word: "intrigo",
+        hint: "Una trama segreta o un complotto complicato."
+    },
+    {
+        word: "precursore",
+        hint: "Qualcosa che precede e indica l'arrivo di qualcos'altro."
+    },
+    {
+        word: "introverso",
+        hint: "Orientato verso l'interno, riservato o timido."
+    },
+    {
+        word: "esaltante",
+        hint: "Che suscita euforia o eccitazione intensa."
+    },
+    {
+        word: "meticolosita",
+        hint: "Estrema precisione e attenzione ai dettagli."
+    },
+    {
+        word: "intrinseco",
+        hint: "Appartenente in modo essenziale a qualcosa, intrinseco."
+    },
+    {
+        word: "sviluppare",
+        hint: "Far evolvere o progredire, specialmente verso uno stato più avanzato."
+    }
 ];
