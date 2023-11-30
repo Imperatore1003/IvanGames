@@ -1,4 +1,4 @@
-const wordList = [
+let wordList = [
     {
         word: "chitarra",
         hint: "Uno strumento musicale con corde."
@@ -68,10 +68,6 @@ const wordList = [
         hint: "La scomparsa giornaliera del sole sotto l'orizzonte."
     },
     {
-        word: "caffè",
-        hint: "Una bevanda caffeinata popolare fatta da chicchi di caffè tostati."
-    },
-    {
         word: "danza",
         hint: "Un movimento ritmico del corpo spesso eseguito a ritmo di musica."
     },
@@ -134,10 +130,6 @@ const wordList = [
     {
         word: "vacanza",
         hint: "Un periodo di tempo dedicato al piacere, al riposo o al relax."
-    },
-    {
-        word: "foresta pluviale",
-        hint: "Una foresta densa caratterizzata da elevate precipitazioni e biodiversità."
     },
     {
         word: "teatro",
@@ -244,14 +236,6 @@ const wordList = [
         hint: "Una falsa percezione o credenza; un'apparenza o impressione ingannevole."
     },
     {
-        word: "luce lunare",
-        hint: "La luce proveniente dalla luna."
-    },
-    {
-        word: "vibrante",
-        hint: "Pieno di energia, luminosità e vita."
-    },
-    {
         word: "nostalgia",
         hint: "Un desiderio sentimentale o affettuoso per il passato."
     },
@@ -274,18 +258,6 @@ const wordList = [
     {
         word: "innovazione",
         hint: "L'introduzione di nuove idee, metodi o invenzioni."
-    },
-    {
-        word: "comunità",
-        hint: "Un gruppo di persone che vivono nello stesso luogo o che hanno una caratteristica particolare in comune."
-    },
-    {
-        word: "sostenibilità",
-        hint: "La capacità di essere mantenuto a una certa velocità o livello senza esaurire le risorse."
-    },
-    {
-        word: "creatività",
-        hint: "L'uso dell'immaginazione o di idee originali per creare qualcosa di nuovo."
     },
     {
         word: "esplorazione",
@@ -312,10 +284,6 @@ const wordList = [
         hint: "Uno stato di stabilità o armonia, in cui le forze si compensano reciprocamente."
     },
     {
-        word: "solidarietà",
-        hint: "Sentimento di unità e cooperazione tra individui con un obiettivo comune."
-    },
-    {
         word: "patrimonio",
         hint: "L'eredità culturale o naturale di una società, spesso considerata di grande valore."
     },
@@ -324,16 +292,8 @@ const wordList = [
         hint: "L'azione di lavorare insieme a altri per raggiungere un obiettivo comune."
     },
     {
-        word: "equità",
-        hint: "Il principio di trattare tutti in modo giusto ed equo, senza discriminazioni."
-    },
-    {
         word: "determinazione",
         hint: "La qualità di essere fermamente impegnati o decisi a raggiungere un obiettivo."
-    },
-    {
-        word: "diversità",
-        hint: "La presenza di varietà e differenze, specialmente culturali, in un gruppo o ambiente."
     },
     {
         word: "crescita",
@@ -348,20 +308,8 @@ const wordList = [
         hint: "Manifestazione di considerazione e ammirazione nei confronti degli altri."
     },
     {
-        word: "flessibilità",
-        hint: "La capacità di adattarsi e reagire in modo positivo ai cambiamenti."
-    },
-    {
         word: "equilibrio",
         hint: "Uno stato di stabilità o armonia, in cui le forze si compensano reciprocamente."
-    },
-    {
-        word: "autenticità",
-        hint: "Essere genuini, veri e fedeli a se stessi."
-    },
-    {
-        word: "responsabilità",
-        hint: "Il dovere o l'obbligo di occuparsi di qualcosa o qualcuno."
     },
     {
         word: "compassione",
