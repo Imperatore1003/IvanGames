@@ -22,6 +22,8 @@ const resetGame = () => {
 }
 
 const getRandomWord = () => {
+    // Disabling play-again button
+    playAgainBtn.setAttribute("disabled", "disabled");
     // Selecting a random word and hint from the wordList
     if (wordList.length == 0 ) {
         wordList = JSON.parse(JSON.stringify(originalWordList));
@@ -35,6 +37,8 @@ const getRandomWord = () => {
 }
 
 const gameOver = (isVictory) => {
+    // Enabling play-again button
+    playAgainBtn.removeAttribute("disabled");
     // After game complete.. showing modal with relevant details
     const modalText = isVictory ? `Hai trovato la parola:` : 'La parola corretta:';
     gameModal.querySelector("img").src = `images/${isVictory ? 'victory' : 'lost'}.gif`;
