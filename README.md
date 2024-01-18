@@ -13,5 +13,5 @@ Aiuta lo gnomino a mangiare tutto lo zucchezo -->
 ## [Impiccato](https://games.ivanbeltrame.com/hangman/)
 Divertiti al classico gioco dell'impiccato
 
-<!-- ## [Impiccato - esperto](https://games.ivanbeltrame.com/hangman-expert/)
-Divertiti al classico gioco dell'impiccato ma con parole molto più difficili del solito! -->
+## [Impiccato - esperto](https://games.ivanbeltrame.com/hangman-expert/)
+Divertiti al classico gioco dell'impiccato ma con parole molto più difficili del solito!
