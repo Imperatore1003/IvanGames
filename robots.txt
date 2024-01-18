@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /flappymodre/
+Disallow: /lanciagnomino/
+Disallow: /mangiazucchezo/
+
+Allow: /
+Allow: /hangman/
+Disallow: /hangman/images/
+Allow: /hangman-expert/
+Disallow: /hangman-expert/images/
+
+Sitemap: https://games.ivanbeltrame.com/sitemap.xml

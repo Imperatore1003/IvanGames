@@ -1,0 +1,49 @@
+{
+    "name": "IvanGames",
+    "short_name": "IvanGames",
+    "start_url": ".",
+    "id": ".",
+    "theme_color": "#4CAF50",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "Questa è una raccolta dei miei giochi",
+    "icons": [
+      {
+        "src": "/img/touch/icon48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/touch/icon72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/touch/icon96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/touch/icon144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/touch/icon168.png",
+        "sizes": "168x168",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/touch/icon192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/touch/icon512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ]
+  }
+  
