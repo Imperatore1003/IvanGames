@@ -12,7 +12,7 @@ let wordList = [
         hint: "Contemporaneo a qualcuno o a qualcosa; della stessa epoca del nome a cui è riferito"
     },
     {
-        word: "faccinoroso",
+        word: "facinoroso",
         hint: "Violento, ribelle, turbolento"
     },
     {
@@ -30,5 +30,5 @@ let wordList = [
     {
         word: "flemma",
         hint: "Lentezza, calma, scarsa emotività"
-    },
+    }
 ];

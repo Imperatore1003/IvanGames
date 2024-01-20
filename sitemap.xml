@@ -9,7 +9,8 @@
         <lastmod>2024-01-18</lastmod>
     </url>
     <url>
-        <loc>https://games.ivanbeltrame.com/hangman-expert/</loc>
+        <loc>https://games.ivanbeltrame.com/hangman-expert
+Disallow: /hangman/images//</loc>
         <lastmod>2024-01-18</lastmod>
     </url>
 </urlset>
