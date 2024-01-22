@@ -653,5 +653,213 @@ let wordList = [
     {
         word: "sviluppare",
         hint: "Far evolvere o progredire, specialmente verso uno stato più avanzato."
+    },
+    {
+        word: "dispersivo",
+        hint: "Che tende a diffondersi o a disperdersi facilmente."
+    },
+    {
+        word: "fioritura",
+        hint: "La fase di fioritura di una pianta o l'insieme dei fiori in un dato periodo."
+    },
+    {
+        word: "periplo",
+        hint: "Un viaggio o una navigazione attorno a una regione o un luogo."
+    },
+    {
+        word: "quintuplicare",
+        hint: "Aumentare o moltiplicare per cinque volte."
+    },
+    {
+        word: "effondere",
+        hint: "Versare o diffondere qualcosa in modo abbondante."
+    },
+    {
+        word: "imbroglio",
+        hint: "Una situazione confusa o complicata, spesso caratterizzata da inganni o frodi."
+    },
+    {
+        word: "espediente",
+        hint: "Un mezzo o una soluzione utile per risolvere un problema."
+    },
+    {
+        word: "rappresentare",
+        hint: "Essere la rappresentazione o il simbolo di qualcosa."
+    },
+    {
+        word: "multiforme",
+        hint: "Di varie forme o di molteplici tipi."
+    },
+    {
+        word: "ostentare",
+        hint: "Mostrare con orgoglio o esibire in modo appariscente."
+    },
+    {
+        word: "abnegazione",
+        hint: "L'atto di rinunciare ai propri interessi o bisogni per il bene degli altri."
+    },
+    {
+        word: "leggendario",
+        hint: "Che appartiene o è associato a leggende o storie mitiche."
+    },
+    {
+        word: "eterogeneo",
+        hint: "Composto da elementi eterogenei, diversificato."
+    },
+    {
+        word: "sconcertante",
+        hint: "Che provoca confusione o sconcerto, inaspettato."
+    },
+    {
+        word: "arcigno",
+        hint: "Dal comportamento aspro o severo, caratterizzato da una espressione severa."
+    },
+    {
+        word: "vulnerabile",
+        hint: "Facilmente ferito o danneggiato, suscettibile di essere ferito emotivamente."
+    },
+    {
+        word: "inclinazione",
+        hint: "La propensione o la tendenza a fare qualcosa."
+    },
+    {
+        word: "proliferare",
+        hint: "Aumentare rapidamente in numero o quantità."
+    },
+    {
+        word: "turbamento",
+        hint: "Uno stato di confusione, agitazione o inquietudine."
+    },
+    {
+        word: "predominante",
+        hint: "Che è dominante o prevalente rispetto agli altri elementi."
+    },
+    {
+        word: "debellare",
+        hint: "Sconfiggere o eliminare completamente un nemico o una minaccia."
+    },
+    {
+        word: "languido",
+        hint: "Che manca di energia o vitalità, fiacco."
+    },
+    {
+        word: "precario",
+        hint: "Instabile, incerto o soggetto a rischi."
+    },
+    {
+        word: "prolifico",
+        hint: "Che produce molte opere, idee o prole in abbondanza."
+    },
+    {
+        word: "rigoglioso",
+        hint: "Che cresce abbondantemente, vigoroso e prospero."
+    },
+    {
+        word: "rampante",
+        hint: "Che si muove in modo vigoroso o si diffonde rapidamente."
+    },
+    {
+        word: "capriccio",
+        hint: "Un desiderio improvviso e bizzarro o un cambiamento d'umore."
+    },
+    {
+        word: "propizio",
+        hint: "Favorevole o indicato per un risultato positivo."
+    },
+    {
+        word: "florido",
+        hint: "Che è in fiore o in piena salute e prosperità."
+    },
+    {
+        word: "zampillare",
+        hint: "Scaturire o fuoriuscire con forza, come l'acqua da una fontana."
+    },
+    {
+        word: "miraggio",
+        hint: "Un'illusione ottica in cui oggetti lontani sembrano essere vicini."
+    },
+    {
+        word: "sibilare",
+        hint: "Produrre un suono simile a un sibilo, spesso associato a serpenti o al vento."
+    },
+    {
+        word: "umbratile",
+        hint: "Che vive o cresce in luoghi ombrosi, all'ombra."
+    },
+    {
+        word: "effusione",
+        hint: "Un'espressione spontanea e fluente di sentimenti o emozioni."
+    },
+    {
+        word: "subdolo",
+        hint: "Astuto o ingannevole in modo nascosto e insidioso."
+    },
+    {
+        word: "intrattenere",
+        hint: "Fornire divertimento o mantenere impegnato qualcuno con conversazione o performance."
+    },
+    {
+        word: "opulento",
+        hint: "Che è caratterizzato da grande ricchezza o lusso."
+    },
+    {
+        word: "perpetuo",
+        hint: "Che continua senza interruzioni, eterno o infinito nel tempo."
+    },
+    {
+        word: "resipiscenza",
+        hint: "Il ravvedimento o il cambiamento di atteggiamento a seguito di un errore."
+    },
+    {
+        word: "frugale",
+        hint: "Caratterizzato da semplicità ed economicità, soprattutto nell'alimentazione."
+    },
+    {
+        word: "vivace",
+        hint: "Pieno di vita e di energia, animato e allegro."
+    },
+    {
+        word: "inesorabile",
+        hint: "Che non può essere placato o fermato, implacabile."
+    },
+    {
+        word: "procrastinare",
+        hint: "Ritardare o rimandare continuamente l'esecuzione di un compito."
+    },
+    {
+        word: "surreale",
+        hint: "Al di là della realtà ordinaria, bizzarro o fantastico."
+    },
+    {
+        word: "inerzia",
+        hint: "La tendenza di un corpo a rimanere in stato di quiete o di movimento uniforme."
+    },
+    {
+        word: "equivoco",
+        hint: "Un malinteso o un fraintendimento, spesso legato a una doppia interpretazione."
+    },
+    {
+        word: "discernere",
+        hint: "Percepire o riconoscere chiaramente qualcosa, distinguere con precisione."
+    },
+    {
+        word: "sfumato",
+        hint: "Con transizioni o confini morbidi, sfumati."
+    },
+    {
+        word: "profetico",
+        hint: "Che predice il futuro o funge da presagio di eventi futuri."
+    },
+    {
+        word: "vetusto",
+        hint: "Antico o molto vecchio, spesso associato a edifici o oggetti."
+    },
+    {
+        word: "lussureggiante",
+        hint: "Che cresce in modo abbondante e rigoglioso, spesso riferito a vegetazione o giardini."
+    },
+    {
+        word: "indefesso",
+        hint: "Che lavora instancabilmente senza stancarsi."
     }
 ];
