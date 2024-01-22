@@ -1,3 +1,8 @@
+# To convert from javascript array to python list:
+#   1. Copy the new objects
+#   2. replace all 'word:' to '"word":'
+#   3. replace all 'hint:' to '"hint":'
+
 import json
 
 def main():
