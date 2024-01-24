@@ -139,8 +139,11 @@ body {
 }
 .game-modal p {
     font-size: 1.15rem;
-    margin: 15px 0 30px;
+    margin: 15px 0 10px;
     font-weight: 500;
+}
+.game-modal h5 {
+    margin-bottom: 15px;
 }
 .game-modal p b {
     color: #5fad62;

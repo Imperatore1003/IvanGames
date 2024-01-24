@@ -7,7 +7,7 @@ const playAgainBtn = gameModal.querySelector("button");
 const originalWordList = JSON.parse(JSON.stringify(wordList));
 
 // Initializing game variables
-let currentWord, correctLetters, wrongGuessCount;
+let currentWord, correctLetters, wrongGuessCount, currentReference;
 const maxGuesses = 6;
 
 const resetGame = () => {
@@ -29,8 +29,9 @@ const getRandomWord = () => {
         wordList = JSON.parse(JSON.stringify(originalWordList));
     }
     const index = Math.floor(Math.random() * wordList.length);
-    const { word, hint } = wordList[index];
+    const { word, hint, reference } = wordList[index];
     currentWord = word; // Making currentWord as random word
+    currentReference = reference;
     wordList.splice(index, 1);
     document.querySelector(".hint-text b").innerText = hint;
     resetGame();
@@ -44,6 +45,7 @@ const gameOver = (isVictory) => {
     gameModal.querySelector("img").src = `images/${isVictory ? 'victory' : 'lost'}.gif`;
     gameModal.querySelector("h4").innerText = isVictory ? 'Congratulazioni!' : 'Game Over!';
     gameModal.querySelector("p").innerHTML = `${modalText} <b>${currentWord}</b>`;
+    document.getElementById("reference").innerHTML = `<a href="${currentReference}" target="_blank" rel="noopener noreferrer">Definizione utilizzata</a>`;
     gameModal.classList.add("show");
 }
 
