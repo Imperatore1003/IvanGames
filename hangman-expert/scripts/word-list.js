@@ -59,5 +59,10 @@ let wordList = [
         word: "gaslighting",
         hint: "Manipolazione psicologica maligna, violenta e subdola",
         reference: "https://it.wikipedia.org/wiki/Gaslighting"
+    },
+    {
+        word: "puerile",
+        hint: "Di fanciullo; che assomigliano a quelle di fanciulli; che avviene o è avvenuto nell’età della fanciullezza",
+        reference: "https://www.treccani.it/vocabolario/puerile/"
     }
 ];
