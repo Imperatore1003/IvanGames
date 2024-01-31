@@ -64,5 +64,10 @@ let wordList = [
         word: "puerile",
         hint: "Di fanciullo; che assomigliano a quelle di fanciulli; che avviene o è avvenuto nell’età della fanciullezza",
         reference: "https://www.treccani.it/vocabolario/puerile/"
+    },
+    {
+        word: "desueto",
+        hint: "Non più abituato a qualche cosa; non più in uso, uscito dall’uso",
+        reference: "https://www.treccani.it/vocabolario/desueto/"
     }
 ];
