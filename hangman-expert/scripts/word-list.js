@@ -69,5 +69,15 @@ let wordList = [
         word: "desueto",
         hint: "Non più abituato a qualche cosa; non più in uso, uscito dall’uso",
         reference: "https://www.treccani.it/vocabolario/desueto/"
+    },
+    {
+        word: "loquace",
+        hint: "Che parla molto, ciarliero",
+        reference: "https://www.treccani.it/vocabolario/loquace/"
+    },
+    {
+        word: "ignominioso",
+        hint: "Che è causa d’ignominia; disonorevole, infamante, meritevole del disprezzo di tutti",
+        reference: "https://www.treccani.it/vocabolario/ignominioso/"
     }
 ];
