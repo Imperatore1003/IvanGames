@@ -77,7 +77,12 @@ let wordList = [
     },
     {
         word: "ignominioso",
-        hint: "Che è causa d’ignominia; disonorevole, infamante, meritevole del disprezzo di tutti",
+        hint: "Disonorevole, infamante, meritevole del disprezzo di tutti",
         reference: "https://www.treccani.it/vocabolario/ignominioso/"
+    },
+    {
+        word: "epistolario",
+        hint: "Raccolta delle lettere scritte da una persona, spec. da uno scrittore o in genere da un uomo illustre, e il libro in cui sono stampate",
+        reference: "https://www.treccani.it/vocabolario/epistolario/"
     }
 ];
