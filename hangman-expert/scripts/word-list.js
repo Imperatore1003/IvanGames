@@ -84,5 +84,15 @@ let wordList = [
         word: "epistolario",
         hint: "Raccolta delle lettere scritte da una persona, spec. da uno scrittore o in genere da un uomo illustre, e il libro in cui sono stampate",
         reference: "https://www.treccani.it/vocabolario/epistolario/"
+    },
+    {
+        word: "vaneggiare",
+        hint: "Vagare con la mente in pensieri che non hanno contatto con la realtà; pensare e dire cose sconnesse, farneticare, per febbre o per uno stato anormale della mente",
+        reference: "https://www.treccani.it/vocabolario/vaneggiare/"
+    },
+    {
+        word: "sproloquiare",
+        hint: "Parlare a lungo e senza costrutto",
+        reference: "https://www.treccani.it/vocabolario/sproloquiare/"
     }
 ];
