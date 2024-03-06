@@ -94,5 +94,20 @@ let wordList = [
         word: "sproloquiare",
         hint: "Parlare a lungo e senza costrutto",
         reference: "https://www.treccani.it/vocabolario/sproloquiare/"
+    },
+    {
+        word: "astruso",
+        hint: "Difficile a intendersi per troppa sottigliezza o astrattezza",
+        reference: "https://www.treccani.it/vocabolario/astruso/"
+    },
+    {
+        word: "eloquio",
+        hint: "Il parlare, il modo di parlare: esporre con facile, con ornato",
+        reference: "https://www.treccani.it/vocabolario/eloquio/"
+    },
+    {
+        word: "mecenate",
+        hint: "Nome di un noto cavaliere romano (69 - 8 a. C.), consigliere di Augusto e influente protettore di letterati e artisti",
+        reference: "https://www.treccani.it/vocabolario/mecenate/"
     }
 ];
