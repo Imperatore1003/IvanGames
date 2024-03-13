@@ -109,5 +109,20 @@ let wordList = [
         word: "mecenate",
         hint: "Nome di un noto cavaliere romano (69 - 8 a. C.), consigliere di Augusto e influente protettore di letterati e artisti",
         reference: "https://www.treccani.it/vocabolario/mecenate/"
+    },
+    {
+        word: "alterco",
+        hint: "Litigio, discussione molto animata",
+        reference: "https://www.treccani.it/vocabolario/alterco/"
+    },
+    {
+        word: "confarsi",
+        hint: "Convenire, essere adatto, giovare alle condizioni fisiche",
+        reference: "https://www.treccani.it/vocabolario/confarsi/"
+    },
+    {
+        word: "etnocentrismo",
+        hint: "Tendenza a giudicare i membri, la struttura, la cultura e la storia di gruppi diversi dal proprio, con riferimento ai valori, alle norme e ai costumi ai quali si è stati educati",
+        reference: "https://www.treccani.it/enciclopedia/etnocentrismo/"
     }
 ];
