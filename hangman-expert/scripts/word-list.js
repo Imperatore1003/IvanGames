@@ -124,5 +124,10 @@ let wordList = [
         word: "etnocentrismo",
         hint: "Tendenza a giudicare i membri, la struttura, la cultura e la storia di gruppi diversi dal proprio, con riferimento ai valori, alle norme e ai costumi ai quali si è stati educati",
         reference: "https://www.treccani.it/enciclopedia/etnocentrismo/"
+    },
+    {
+        word: "eros",
+        hint: "Usato per indicare il desiderio, l’istinto sessuale, con riferimento alle concezioni che di esso ebbero gli antichi",
+        reference: "https://www.treccani.it/vocabolario/eros/"
     }
 ];
