@@ -129,5 +129,10 @@ let wordList = [
         word: "eros",
         hint: "Usato per indicare il desiderio, l’istinto sessuale, con riferimento alle concezioni che di esso ebbero gli antichi",
         reference: "https://www.treccani.it/vocabolario/eros/"
+    },
+    {
+        word: "cinico",
+        hint: "Indifferente ai sentimenti e alla morale comune; privo di sensibilità",
+        reference: "https://dizionari.corriere.it/dizionario_italiano/C/cinico.shtml"
     }
 ];
