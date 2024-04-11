@@ -4,6 +4,15 @@ const keyboardDiv = document.querySelector(".keyboard");
 const hangmanImage = document.querySelector(".hangman-box img");
 const gameModal = document.querySelector(".game-modal");
 const playAgainBtn = gameModal.querySelector("button");
+
+// To use a custom word list, replace this wordList array with your own
+// wordList = [
+//     {
+//         word: "word",
+//         hint: "hint",
+//         reference: "reference"
+//     }
+// ];
 const originalWordList = JSON.parse(JSON.stringify(wordList));
 
 // Initializing game variables

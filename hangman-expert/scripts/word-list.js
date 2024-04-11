@@ -134,5 +134,20 @@ let wordList = [
         word: "cinico",
         hint: "Indifferente ai sentimenti e alla morale comune; privo di sensibilità",
         reference: "https://dizionari.corriere.it/dizionario_italiano/C/cinico.shtml"
+    },
+    {
+        word: "podere",
+        hint: "Fondo rustico destinato a coltura o suscettibile di coltura, lavorato da una o più famiglie coloniche in proprio o per contratto di affitto o, un tempo, di mezzadria",
+        reference: "https://www.treccani.it/vocabolario/podere2/"
+    },
+    {
+        word: "stanga",
+        hint: "Lungo pezzo di legno o di metallo, per lo più squadrato a sezione rettangolare",
+        reference: "https://www.treccani.it/vocabolario/stanga/"
+    },
+    {
+        word: "massaio",
+        hint: "Nome dato anticam., a seconda delle zone, a tesorieri, esattori e amministratori delle pubbliche entrate, agli ufficiali preposti alla custodia delle merci nelle dogane o alla conservazione dei pegni, a economi, fabbricieri, stimatori, contabili, esattori, lavoratori della terra nel rapporto di colonìa parziaria",
+        reference: "https://www.treccani.it/vocabolario/massaio/"
     }
 ];
