@@ -37,10 +37,16 @@
     ## [Mangia zucchezo](https://games.ivanbeltrame.com/mangiazucchezo/)
     Aiuta lo gnomino a mangiare tutto lo zucchezo -->
 
-    <h2 id="impiccato"><a href="https://games.ivanbeltrame.com/hangman/">Impiccato</a></h2>
-    <p>Divertiti al classico gioco dell&#39;impiccato</p>
-    <h2 id="impiccato---esperto"><a href="https://games.ivanbeltrame.com/hangman-expert/">Impiccato - esperto</a></h2>
-    <p>Divertiti al classico gioco dell&#39;impiccato ma con parole molto più difficili del solito!</p>
+    <h2 id="impiccato"><a href="/hangman/">Impiccato <span id="wordCounterHangman"></span></a></h2>
+    <p>Divertiti al classico gioco dell'impiccato</p>
+    <h2 id="impiccato---esperto"><a href="/hangman-expert/">Impiccato - esperto <span id="wordCounterHangmanExpert"></span></a></h2>
+    <p>Divertiti al classico gioco dell'impiccato ma con parole molto più difficili del solito!</p>
 </body>
 <script src="/app.js"></script>
+<script src="/hangman/scripts/word-list.js"></script>
+<script src="/hangman-expert/scripts/word-list.js"></script>
+<script>
+    document.getElementById("wordCounterHangman").innerText = `(${wordList.length} parole)`;
+    document.getElementById("wordCounterHangmanExpert").innerText = `(${wordListExpert.length} parole)`;
+</script>
 </html>

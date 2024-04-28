@@ -6,14 +6,14 @@ const gameModal = document.querySelector(".game-modal");
 const playAgainBtn = gameModal.querySelector("button");
 
 // To use a custom word list, replace this wordList array with your own
-// wordList = [
+// wordListExpert = [
 //     {
 //         word: "word",
 //         hint: "hint",
 //         reference: "reference"
 //     }
 // ];
-const originalWordList = JSON.parse(JSON.stringify(wordList));
+const originalWordListExpert = JSON.parse(JSON.stringify(wordListExpert));
 
 // Initializing game variables
 let currentWord, correctLetters, wrongGuessCount, currentReference;
@@ -34,14 +34,14 @@ const getRandomWord = () => {
     // Disabling play-again button
     playAgainBtn.setAttribute("disabled", "disabled");
     // Selecting a random word and hint from the wordList
-    if (wordList.length == 0 ) {
-        wordList = JSON.parse(JSON.stringify(originalWordList));
+    if (wordListExpert.length == 0 ) {
+        wordListExpert = JSON.parse(JSON.stringify(originalWordListExpert));
     }
-    const index = Math.floor(Math.random() * wordList.length);
-    const { word, hint, reference } = wordList[index];
+    const index = Math.floor(Math.random() * wordListExpert.length);
+    const { word, hint, reference } = wordListExpert[index];
     currentWord = word; // Making currentWord as random word
     currentReference = reference;
-    wordList.splice(index, 1);
+    wordListExpert.splice(index, 1);
     document.querySelector(".hint-text b").innerText = hint;
     resetGame();
 }

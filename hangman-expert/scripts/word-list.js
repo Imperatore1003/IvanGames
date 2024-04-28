@@ -1,5 +1,5 @@
 // Tutti gli indizi delle parole sono stati presi dal vocabolario Treccani https://www.treccani.it/ tranne specificazione diversa.
-let wordList = [
+let wordListExpert = [
     {
         word: "elefantiaco",
         hint: "Esageratamente complesso e macchinoso",
