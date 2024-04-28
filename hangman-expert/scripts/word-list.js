@@ -149,5 +149,10 @@ let wordList = [
         word: "massaio",
         hint: "Nome dato anticam., a seconda delle zone, a tesorieri, esattori e amministratori delle pubbliche entrate, agli ufficiali preposti alla custodia delle merci nelle dogane o alla conservazione dei pegni, a economi, fabbricieri, stimatori, contabili, esattori, lavoratori della terra nel rapporto di colonìa parziaria",
         reference: "https://www.treccani.it/vocabolario/massaio/"
+    },
+    {
+        word: "mercimonio",
+        hint: "Traffico illecito e riprovevole di cose non venali",
+        reference: "https://www.treccani.it/vocabolario/mercimonio/"
     }
 ];
