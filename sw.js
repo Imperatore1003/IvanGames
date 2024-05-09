@@ -1,8 +1,5 @@
-const cacheVersion = "v19";
+const cacheVersion = "v20";
 const statiCache = "site-static-" + cacheVersion;
-const dynamicCache = "site-dynamic-" + cacheVersion;
-
-const maxCacheSize = 5000000;
 
 const pages = [
     "/",
@@ -61,17 +58,6 @@ const hangmanExpertCache = [
     "/hangman-expert/style.css"
 ];
 
-// Cache size limit function
-const limitCacheSize = (name, size) => {
-    caches.open(name).then(cache => {
-        cache.keys().then(keys => {
-            if (keys.length > size) {
-                cache.delete(keys[0]).then(limitCacheSize(name, size));
-            }
-        });
-    });
-}
-
 // Install service worker
 self.addEventListener("install", evt => {
     console.log("Service worker has been installed");
@@ -111,7 +97,6 @@ self.addEventListener("fetch", evt => {
             return cacheRes || fetch(evt.request).then(fetchRes => {
                 return caches.open(dynamicCache).then(cache => {
                     cache.put(evt.request.url, fetchRes.clone());
-                    limitCacheSize(dynamicCache, maxCacheSize);
                     return fetchRes;
                 })
             });
