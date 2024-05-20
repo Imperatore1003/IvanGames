@@ -154,5 +154,25 @@ let wordListExpert = [
         word: "mercimonio",
         hint: "Traffico illecito e riprovevole di cose non venali",
         reference: "https://www.treccani.it/vocabolario/mercimonio/"
+    },
+    {
+        word: "impavido",
+        hint: "Coraggioso, che rimane con cuore saldo e non si lascia, cogliere da paura",
+        reference: "https://www.treccani.it/vocabolario/impavido/"
+    },
+    {
+        word: "ridanciano",
+        hint: "Che ride spesso e volentieri, con gusto e spensieratezza",
+        reference: "https://www.treccani.it/vocabolario/ridanciano/"
+    },
+    {
+        word: "verve",
+        hint: "Estro, brio. Anticam. il vocabolo significava «fantasia, capriccio»",
+        reference: "https://www.treccani.it/vocabolario/verve/"
+    },
+    {
+        word: "calende greche",
+        hint: "Locuzione; significato metaforico di \"mai\"",
+        reference: "https://it.wikipedia.org/wiki/Alle_calende_greche"
     }
 ];
