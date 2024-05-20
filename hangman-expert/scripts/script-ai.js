@@ -27,6 +27,16 @@ const resetGame = () => {
     guessesText.innerText = `${wrongGuessCount} / ${maxGuesses}`;
     wordDisplay.innerHTML = currentWord.split("").map(() => `<li class="letter"></li>`).join("");
     keyboardDiv.querySelectorAll("button").forEach(btn => btn.disabled = false);
+
+    // Removing spaces from the current word
+    [...currentWord].forEach((letter, index) => {
+        if(letter === " ") {
+            correctLetters.push(letter);
+            wordDisplay.querySelectorAll("li")[index].innerText = letter;
+            wordDisplay.querySelectorAll("li")[index].classList.add("guessed");
+        }
+    });
+
     gameModal.classList.remove("show");
 }
 
@@ -97,14 +107,15 @@ document.addEventListener("keydown", function (event) {
 });
 
 // Creating keyboard buttons and adding event listeners
-for (let i = 97; i <= 122; i++) {
+let qwerty = [113, 119, 101, 114, 116, 121, 117, 105, 111, 112, 97, 115, 100, 102, 103, 104, 106, 107, 108, 122, 120, 99, 118, 98, 110, 109];
+qwerty.forEach((i) => {
     const button = document.createElement("button");
     button.innerText = String.fromCharCode(i);
     button.classList.add("keyboard-button"); // Aggiungi la classe "keyboard-button"
     keyboardDiv.appendChild(button);
 
     button.addEventListener("click", (e) => initGame(e.target, String.fromCharCode(i)));
-}
+});
 
 getRandomWord();
 playAgainBtn.addEventListener("click", getRandomWord);
